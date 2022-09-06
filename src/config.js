@@ -8,7 +8,7 @@ const BLOG_URL = "https://www.xuyanblog.cn/"; // 个人网站链接（请填写�
 
 const GITHUB = "https://github.com/Xuyan-cmd"; // 右上角 Github 图标链接，留空不显示
 
-const BACKGROUND_IMG_URL = "https://api.dujin.org/bing/1920.php"; // 背景图片url，默认为必应每日图片（第三方接口）
+const BACKGROUND_IMG_URL = "https://s6.jpg.cm/2022/09/06/PAiz9L.jpg"; // 背景图片url，默认为必应每日图片（第三方接口）
 
 const SORT_DATA = [
   { sortId: 1, title: "技术分享" },
