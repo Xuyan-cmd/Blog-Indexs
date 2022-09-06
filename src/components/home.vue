@@ -46,7 +46,7 @@
           <i v-if="centerShow" class="mdi-chevron-down mdi"></i>
         </transition>
       </div>
-      <div class="bottom-info">站点导航</div>
+      <div class="bottom-info">☝️站点导航☝️</div>
     </div>
 
     <!-- 备案号 -->

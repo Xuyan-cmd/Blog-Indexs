@@ -2,7 +2,7 @@ const SERVE = false; // 是否使用线上服务器
 
 const HOST = "https://esunr.xyz:8080/api/esunrIndex"; // 线上服务器地址，如果不使用请留空
 
-const BLOG_NAME = "我的博客"; // 个人网站名字
+const BLOG_NAME = "百川🌊的博客"; // 个人网站名字
 
 const BLOG_URL = "https://www.xuyanblog.cn/"; // 个人网站链接（请填写完整链接）
 
