@@ -11,7 +11,7 @@ const GITHUB = "https://github.com/Xuyan-cmd"; // 右上角 Github 图标链接�
 const BACKGROUND_IMG_URL = "https://api.dujin.org/bing/1920.php"; // 背景图片url，默认为必应每日图片（第三方接口）
 
 const SORT_DATA = [
-  { sortId: 1, title: "示例分类1" },
+  { sortId: 1, title: "科学技术" },
   { sortId: 2, title: "示例分类2" }
 ]; // 网站分类列表，请按照API.md中'/getSort'接口中返回的data格式填写
 
@@ -21,18 +21,74 @@ const PAGES_DATA = [
   {
     pageId: 1,
     sortId: 1,
-    title: "主标题",
-    subtitle: "副标题",
-    url: "http://www.YourWebPage.com/",
-    icon: ""
+    title: "黑苹果",
+    subtitle: "苹果技术网站",
+    url: "https://heipg.cn/",
+    icon: "https://heipg.cn/favicon.ico"
   },
   {
     pageId: 2,
     sortId: 1,
-    title: "主标题",
-    subtitle: "副标题",
-    url: "http://www.YourWebPage.com/",
+    title: "Notion",
+    subtitle: "Notion官方网址",
+    url: "https://www.notion.so/",
+    icon: "https://www.notion.so/images/favicon.ico"
+  },
+  {
+    pageId: 3,
+    sortId: 1,
+    title: "123网盘",
+    subtitle: "2T存储空间",
+    url: "https://www.123pan.com/login",
+    icon: "https://www.123pan.com/static/favicon.ico"
+  },
+  {
+    pageId: 4,
+    sortId: 1,
+    title: "V2rayse",
+    subtitle: "科学上网",
+    url: "https://v2rayse.com/",
+    icon: "https://v2rayse.com/favicon.ico"
+  },
+  {
+    pageId: 5,
+    sortId: 1,
+    title: "CloudFlare",
+    subtitle: "国外著名云服务平台",
+    url: "https://www.cloudflare.com/zh-cn/",
     icon: ""
+  },
+  {
+    pageId: 6,
+    sortId: 1,
+    title: "GoDaddy",
+    subtitle: "著名的域名服务商",
+    url: "https://www.godaddy.com/zh-sg",
+    icon: "https://img6.wsimg.com/ux/favicon/apple-icon-76x76.png"
+  },
+  {
+    pageId: 7,
+    sortId: 1,
+    title: "简道云",
+    subtitle: "低代码开发平台",
+    url: "https://www.jiandaoyun.com/",
+    icon: "https://www.jiandaoyun.com/favicon.ico"
+  },
+  {
+    pageId: 8,
+    sortId: 1,
+    title: "远景论坛",
+    subtitle: "知名极客社区",
+    url: "https://bbs.pcbeta.com/index.php",
+    icon: "https://bbs.pcbeta.com/favicon.ico"
+  },
+  {
+    pageId: 9,
+    sortId: 1,
+    title: "吾爱破解",
+    subtitle: "国内最大的破解平台",
+    url: "https://www.52pojie.cn/portal.php",
+    icon: "https://static.52pojie.cn/static/image/common/logo.png"
   },
   {
     pageId: 2,
