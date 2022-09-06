@@ -41,7 +41,7 @@
     </div>
     <div class="footer" v-if="$config.FOOTER_INFO">
       <i class="mdi mdi-fountain-pen-tip"></i> Designed By
-      <a href="https://github.com/Xuyan-cmd">EsunR</a>
+      <a href="https://github.com/Xuyan-cmd">百川🌊</a>
     </div>
   </div>
 </template>
