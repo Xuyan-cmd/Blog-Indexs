@@ -28,6 +28,14 @@ const PAGES_DATA = [
   },
   {
     pageId: 2,
+    sortId: 1,
+    title: "主标题",
+    subtitle: "副标题",
+    url: "http://www.YourWebPage.com/",
+    icon: ""
+  },
+  {
+    pageId: 2,
     sortId: 2,
     title: "主标题",
     subtitle: "副标题",
