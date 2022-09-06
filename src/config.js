@@ -12,8 +12,8 @@ const BACKGROUND_IMG_URL = "https://api.dujin.org/bing/1920.php"; // 背景图�
 
 const SORT_DATA = [
   { sortId: 1, title: "技术分享" },
-  { sortId: 2, title: "工具归档" },
-  { sortId: 3, title: "新闻资讯" },
+  { sortId: 2, title: "新闻资讯" },
+  { sortId: 3, title: "热点归档" },
   { sortId: 4, title: "影视分享" }
 ]; // 网站分类列表，请按照API.md中'/getSort'接口中返回的data格式填写
 
@@ -95,66 +95,42 @@ const PAGES_DATA = [
   {
     pageId: 10,
     sortId: 2,
-    title: "主标题",
-    subtitle: "副标题",
-    url: "http://www.YourWebPage.xyz/",
-    icon: ""
+    title: "微博热搜榜",
+    subtitle: "国内热点问题",
+    url: "https://s.weibo.com/top/summary?cate=realtimehot",
+    icon: "https://www.gezhipu.com/assets/images/logos/xinlang.png"
   },
   {
     pageId: 11,
     sortId: 2,
-    title: "主标题",
-    subtitle: "副标题",
-    url: "http://www.YourWebPage.xyz/",
-    icon: ""
+    title: "豆瓣小组精选",
+    subtitle: "国内文艺青年聚集地",
+    url: "https://www.douban.com/group/explore",
+    icon: "https://www.gezhipu.com/assets/images/logos/douban.png"
   },
   {
     pageId: 12,
     sortId: 2,
-    title: "主标题",
-    subtitle: "副标题",
-    url: "http://www.YourWebPage.xyz/",
-    icon: ""
+    title: "环球网",
+    subtitle: "国际新闻",
+    url: "https://www.huanqiu.com/",
+    icon: "https://rs2.huanqiucdn.cn/huanqiu/image/www/index/new_logo.png"
   },
   {
     pageId: 13,
     sortId: 2,
-    title: "主标题",
-    subtitle: "副标题",
-    url: "http://www.YourWebPage.xyz/",
+    title: "BBC中文网",
+    subtitle: "全球新闻",
+    url: "https://www.bbc.com/zhongwen/simp/topics/ck2l9z0em07t",
     icon: ""
   },
   {
     pageId: 14,
     sortId: 2,
-    title: "主标题",
-    subtitle: "副标题",
-    url: "http://www.YourWebPage.xyz/",
-    icon: ""
-  },
-  {
-    pageId: 15,
-    sortId: 2,
-    title: "主标题",
-    subtitle: "副标题",
-    url: "http://www.YourWebPage.xyz/",
-    icon: ""
-  },
-  {
-    pageId: 16,
-    sortId: 2,
-    title: "主标题",
-    subtitle: "副标题",
-    url: "http://www.YourWebPage.xyz/",
-    icon: ""
-  },
-  {
-    pageId: 17,
-    sortId: 2,
-    title: "主标题",
-    subtitle: "副标题",
-    url: "http://www.YourWebPage.xyz/",
-    icon: ""
+    title: "凤凰新闻",
+    subtitle: "国内权威新闻媒体",
+    url: "https://news.ifeng.com/",
+    icon: "https://p0.ifengimg.com/37780e23b9ea2d8b/2017/38/logoNews.png"
   }
 ]; // 网站分类列表，请按照API.md中'/getPages'接口中返回的data格式填写
 
