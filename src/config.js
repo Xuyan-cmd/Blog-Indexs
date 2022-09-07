@@ -13,7 +13,7 @@ const BACKGROUND_IMG_URL = "https://s6.jpg.cm/2022/09/06/PAiz9L.jpg"; // 背景�
 const SORT_DATA = [
   { sortId: 1, title: "技术分享" },
   { sortId: 2, title: "新闻资讯" },
-  { sortId: 3, title: "热点归档" },
+  { sortId: 3, title: "工具归档" },
   { sortId: 4, title: "影视分享" }
 ]; // 网站分类列表，请按照API.md中'/getSort'接口中返回的data格式填写
 
@@ -131,6 +131,54 @@ const PAGES_DATA = [
     subtitle: "国内权威新闻媒体",
     url: "https://news.ifeng.com/",
     icon: "https://p0.ifengimg.com/37780e23b9ea2d8b/2017/38/logoNews.png"
+  },
+  {
+    pageId: 15,
+    sortId: 3,
+    title: "CTF工具包",
+    subtitle: "集合式工具",
+    url: "http://www.hiencode.com/",
+    icon: ""
+  },
+  {
+    pageId: 16,
+    sortId: 3,
+    title: "在线工具库",
+    subtitle: "多种工具包",
+    url: "https://ctf.bugku.com/tools.html",
+    icon: ""
+  },
+  {
+    pageId: 17,
+    sortId: 3,
+    title: "CTF学习资源",
+    subtitle: "CTF攻防资料",
+    url: "https://ctf-wiki.org/introduction/resources/",
+    icon: ""
+  },
+  {
+    pageId: 18,
+    sortId: 3,
+    title: "工具百宝箱",
+    subtitle: "多种在线工具整合",
+    url: "https://tool.lu/",
+    icon: ""
+  },
+  {
+    pageId: 19,
+    sortId: 3,
+    title: "瑞士百宝箱",
+    subtitle: "满足你网上冲浪的需求",
+    url: "https://zxxgj.net/",
+    icon: ""
+  },
+  {
+    pageId: 20,
+    sortId: 3,
+    title: "菜鸟工具百宝库",
+    subtitle: "功能十分齐全",
+    url: "https://c.runoob.com/",
+    icon: ""
   }
 ]; // 网站分类列表，请按照API.md中'/getPages'接口中返回的data格式填写
 
